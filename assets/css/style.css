@@ -1,0 +1,23 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+    
+    }
+  
+  
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.logo {
+    height: 33px;
+    width: 33px;
+   }
+
+.iconos img{
+   height: 25px;
+   width: 30px;
+   filter: invert(100%);
+}   

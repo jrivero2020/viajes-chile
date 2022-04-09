@@ -19,9 +19,9 @@
   </head>
   <body>
     <!-- Navbar  -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark " id="inicio">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand logo ms-1" href="#">
+        <a class="navbar-brand logo ms-1">
           <img src="./img/viajes.svg" alt="" />Viajes Chile
         </a>
         <button
@@ -40,16 +40,16 @@
           <div class="mx-auto"></div>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#inicio">Inicio</a>
+              <a class="nav-link text-white fw-bold" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Quienes Somos</a>
+              <a class="nav-link text-white fw-bold" href="#quienesSomos" >Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Destacados</a>
+              <a class="nav-link text-white fw-bold" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white fw-bold" href="#">Contacto</a>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@
       class="carousel slide"
       data-bs-ride="carousel"
     >
-      <div class="carousel-inner">
+      <div class="carousel-inner" id="inicio">
         <div class="carousel-item active">
           <img src="./img/carousel1.jpg" class="d-block w-100" alt="..." />
         </div>
@@ -95,42 +95,147 @@
     <!-- Fin seccion carrusel-->
 
     <!-- Quienes somos -->
-    <section class="container-fluid flex bg-dark d-none d-md-block">
-      <img class="card-img-top" src="holder.js/100px180/" alt="">
-      <div class="card-body">
-        <h4 class="card-title">Title</h4>
-        <p class="card-text">Text</p>
-      </div>
-    </div>">
-      <div class="row text-white" >
+    <section
+      class="container-fluid flex bg-dark d-none d-md-block pt-4"
+      id="quienesSomos"
+    >
+      <div class="row text-white">
         <div class="col-12">
           <h2 class="text-center fw-bold mb-5">¿QUIÉNES SOMOS?</h2>
         </div>
         <div class="col-sm-12 col-mx-12 col-md-4">
-            <button type="button" class="btn btn-info col-12 iconos"><img src="./img/avion.png" alt=""></button>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi officiis asperiores obcaecati.
-            Quae magnam corporis perspiciatis repudiandae quas autem at id tenetur cupiditate, veniam laborum totam maxime voluptatem, numquam atque aliquam iure eligendi quos dolores magni ullam officiis modi! Fuga, ex autem!
-            Obcaecati officia illo ea reiciendis quo deleniti debitis consequuntur placeat. Aliquid velit et labore ipsa iusto debitis deserunt numquam illo quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia, maiores esse.
-            Labore vitae similique sunt ex commodi delectus nihil unde nostrum facere aut sit ullam autem enim placeat non at distinctio consectetur sed ab, tempore mollitia ipsa architecto quaerat corporis! Quidem. </p>
+          <button type="button" class="btn btn-info col-12 iconos">
+            <img src="./img/avion.png" alt="" />
+          </button>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+            repudiandae quas autem at id tenetur cupiditate, veniam laborum
+            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
+            illo ea reiciendis quo deleniti debitis consequuntur placeat.
+            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
+            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
+            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
+            unde nostrum facere aut sit ullam autem enim placeat non at
+            distinctio consectetur sed ab, tempore mollitia ipsa architecto
+            quaerat corporis! Quidem.
+          </p>
         </div>
         <div class="col-sm-12 col-mx-12 col-md-4">
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi officiis asperiores obcaecati.
-            Quae magnam corporis perspiciatis repudiandae quas autem at id tenetur cupiditate, veniam laborum totam maxime voluptatem, numquam atque aliquam iure eligendi quos dolores magni ullam officiis modi! Fuga, ex autem!
-            Obcaecati officia illo ea reiciendis quo deleniti debitis consequuntur placeat. Aliquid velit et labore ipsa iusto debitis deserunt numquam illo quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia, maiores esse.
-            Labore vitae similique sunt ex commodi delectus nihil unde nostrum facere aut sit ullam autem enim placeat non at distinctio consectetur sed ab, tempore mollitia ipsa architecto quaerat corporis! Quidem. </p>
-            <button type="button" class="btn btn-info col-12 iconos"><img src="./img/avion.png" alt=""></button>            
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+            repudiandae quas autem at id tenetur cupiditate, veniam laborum
+            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
+            illo ea reiciendis quo deleniti debitis consequuntur placeat.
+            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
+            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
+            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
+            unde nostrum facere aut sit ullam autem enim placeat non at
+            distinctio consectetur sed ab, tempore mollitia ipsa architecto
+            quaerat corporis! Quidem.
+          </p>
+          <button type="button" class="btn btn-info col-12 iconos">
+            <img src="./img/avion.png" alt="" />
+          </button>
         </div>
         <div class="col-sm-12 col-mx-12 col-md-4">
-            <button type="button" class="btn btn-info col-12 iconos"><img src="./img/avion.png" alt=""></button>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi officiis asperiores obcaecati.
-            Quae magnam corporis perspiciatis repudiandae quas autem at id tenetur cupiditate, veniam laborum totam maxime voluptatem, numquam atque aliquam iure eligendi quos dolores magni ullam officiis modi! Fuga, ex autem!
-            Obcaecati officia illo ea reiciendis quo deleniti debitis consequuntur placeat. Aliquid velit et labore ipsa iusto debitis deserunt numquam illo quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia, maiores esse.
-            Labore vitae similique sunt ex commodi delectus nihil unde nostrum facere aut sit ullam autem enim placeat non at distinctio consectetur sed ab, tempore mollitia ipsa architecto quaerat corporis! Quidem. </p>
-            
+          <button type="button" class="btn btn-info col-12 iconos">
+            <img src="./img/avion.png" alt="" />
+          </button>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+            repudiandae quas autem at id tenetur cupiditate, veniam laborum
+            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
+            illo ea reiciendis quo deleniti debitis consequuntur placeat.
+            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
+            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
+            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
+            unde nostrum facere aut sit ullam autem enim placeat non at
+            distinctio consectetur sed ab, tempore mollitia ipsa architecto
+            quaerat corporis! Quidem.
+          </p>
         </div>
       </div>
     </section>
     <!-- FIN quienes somos-->
+
+    <!-- Cards Destacados-->
+    <section class="container-fluid bg-dark" id="destacados">
+      <div class="row text-white">
+        <div class="col-12">
+          <h3 class="text-center fw-bold mt-5 mb-5">DESTACADOS</h3>
+        </div>
+      </div>
+      <div id="cardGroup" class="card-group">
+        <div class="row">
+          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+            <div class="card px-1">
+              <img src="./img/card1.jpg" class="card-img-top h-100" alt="..." />
+              <div class="card-body bg-primary">
+                <p class="card-text mt-1 bg-primary text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi quo temporibus minus maxime modi sunt, molestias,
+                  nam minima magni assumenda est ratione quam autem fugit, rem
+                  placeat ipsam non voluptate!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+            <div class="card px-1">
+              <img src="./img/card2.jpg" class="card-img-top h-100" alt="..." />
+              <div class="card-body bg-primary">
+                <p class="card-text mt-1 bg-primary text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi quo temporibus minus maxime modi sunt, molestias,
+                  nam minima magni assumenda est ratione quam autem fugit, rem
+                  placeat ipsam non voluptate!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+            <div class="card px-1">
+              <img src="./img/card3.jpg" class="card-img-top h-100" alt="..." />
+              <div class="card-body bg-primary">
+                <p class="card-text mt-1 bg-primary text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi quo temporibus minus maxime modi sunt, molestias,
+                  nam minima magni assumenda est ratione quam autem fugit, rem
+                  placeat ipsam non voluptate!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+            <div class="card px-1">
+              <img src="./img/card4.jpg" class="card-img-top h-100" alt="..." />
+              <div class="card-body bg-primary">
+                <p class="card-text mt-1 bg-primary text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi quo temporibus minus maxime modi sunt, molestias,
+                  nam minima magni assumenda est ratione quam autem fugit, rem
+                  placeat ipsam non voluptate!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN destacados-->
 
     <!-- jquery cdn-->
     <script
