@@ -1,39 +1,37 @@
+/* Inicializa body de la página */
 body * {
     margin: 0;
     border: 0;
     padding: 0;
     }
-  
+
+/* Inicializa todas la imagenes */
 img {
     max-width: 100%;
     max-height: 100%;
    }
 
+   /* define tamaño de la imagen del logo
+      del título Barra navegación */
 .logo {
     height: 38px;
     width: 38px;
    }
 
-.imgFooter, .iconos img{
-   height: 25px;
-   width: 30px;   
-
-/*    filter: invert(100%); */
-}
-
+/* Define propiedades del texto del footer */
 .txtFooter{
     color: white;
-    font-weight: 400;
-    font-size: 2.5em;
+    font-weight: 450;
+    font-size: 2.2em;
     margin-bottom: 0.25em;
 }
 
+
+/* Centrado vertical y horizontal
+   define el ancho del footer */
 .abs-center {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 8vh;
-  }
-  a {
-    text-decoration: none;
+    min-height: 7vh;
   }

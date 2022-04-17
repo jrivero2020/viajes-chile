@@ -62,34 +62,49 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white fw-bold" href="#contacto">Contacto</a>
+              <a class="nav-link text-white fw-bold" href="#contacto"
+                >Contacto</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Fin Nav de menu -->
+
     <!-- Sección carrusel-->
     <section
-      id="carruselImagenes"
+      id="imagenesDestacadas"
       class="carousel slide"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner" id="inicio">
         <div class="carousel-item active">
-          <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="./assets/img/carousel1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="./assets/img/carousel2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="..." />
+          <img
+            src="./assets/img/carousel3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carruselImagenes"
+        data-bs-target="#imagenesDestacadas"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -98,7 +113,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carruselImagenes"
+        data-bs-target="#imagenesDestacadas"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -108,141 +123,195 @@
     <!-- Fin seccion carrusel-->
 
     <!-- Quienes somos -->
-    <section
-      class="container-fluid flex bg-dark d-none d-md-block pt-4"
-      id="quienesSomos"
+    <section id="quienesSomos"
+      class="container-fluid bg-dark d-none d-md-block pt-4"
     >
-      <div class="row text-white">
-        <div class="col-12">
-          <h2 class="text-center fw-bold mb-5">¿QUIÉNES SOMOS?</h2>
-        </div>
-        <div class="col-sm-12 col-mx-12 col-md-4">
-          
-          <button type="button" class="btn btn-info col-12 ">
-            <i class="fa-solid fa-plane fa-2x" style="color:white"></i>
+      <div class="container-xl">
+        <div class="row text-white">
+          <div class="col-12">
+            <h2 class="text-center fw-bold mb-5">¿QUIÉNES SOMOS?</h2>
+          </div>
+          <div class="col-sm-12 col-mx-12 col-md-4">
+<!--
+            <button type="button" class="btn btn-info col-12">
+              <i class="fa-solid fa-plane fa-2x" style="color: white"></i>
+            </button>
+-->
+
+            <button
+            type="button"
+            class="btn btn-info col-12"
+            data-bs-toggle="popover"
+            title="Vuelos"
+            data-bs-content="Las mejores aerolíneas lo traen hasta acá"
+          >
+          <i class="fa-solid fa-plane fa-2x" style="color: white"></i>
           </button>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
-            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
-            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
-            repudiandae quas autem at id tenetur cupiditate, veniam laborum
-            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
-            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
-            illo ea reiciendis quo deleniti debitis consequuntur placeat.
-            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
-            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
-            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
-            unde nostrum facere aut sit ullam autem enim placeat non at
-            distinctio consectetur sed ab, tempore mollitia ipsa architecto
-            quaerat corporis! Quidem.
-          </p>
-        </div>
-        <div class="col-sm-12 col-mx-12 col-md-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
-            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
-            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
-            repudiandae quas autem at id tenetur cupiditate, veniam laborum
-            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
-            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
-            illo ea reiciendis quo deleniti debitis consequuntur placeat.
-            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
-            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
-            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
-            unde nostrum facere aut sit ullam autem enim placeat non at
-            distinctio consectetur sed ab, tempore mollitia ipsa architecto
-            quaerat corporis! Quidem.
-          </p>
-          <button type="button" class="btn btn-info col-12 mt-3">
-            <i class="fa-solid fa-mountain fa-2x" style="color:white"></i>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+              voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+              unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+              officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+              repudiandae quas autem at id tenetur cupiditate, veniam laborum
+              totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+              dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati
+              officia illo ea reiciendis quo deleniti debitis consequuntur
+              placeat. Aliquid velit et labore ipsa iusto debitis deserunt
+              numquam illo quibusdam, doloribus commodi fugit dolorem magnam
+              sunt mollitia, maiores esse. Labore vitae similique sunt ex
+              commodi delectus nihil unde nostrum facere aut sit ullam autem
+              enim placeat non at distinctio consectetur sed ab, tempore
+              mollitia ipsa architecto quaerat corporis! Quidem.
+            </p>
+          </div>
+          <div class="col-sm-12 col-mx-12 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+              voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+              unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+              officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+              repudiandae quas autem at id tenetur cupiditate, veniam laborum
+              totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+              dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati
+              officia illo ea reiciendis quo deleniti debitis consequuntur
+              placeat. Aliquid velit et labore ipsa iusto debitis deserunt
+              numquam illo quibusdam, doloribus commodi fugit dolorem magnam
+              sunt mollitia, maiores esse. Labore vitae similique sunt ex
+              commodi delectus nihil unde nostrum facere aut sit ullam autem
+              enim placeat non at distinctio consectetur sed ab, tempore
+              mollitia ipsa architecto quaerat corporis! Quidem.
+            </p>
+            <!--
+            <button type="button" class="btn btn-info col-12 mt-3">
+              <i class="fa-solid fa-mountain fa-2x" style="color: white"></i>
+            </button>
+-->
+            <button
+            type="button"
+            class="btn btn-info col-12"
+            data-bs-toggle="popover"
+            title="Montañas"
+            data-bs-content="Encontrará la cordillera más larga del mundo para practicar montañismo"
+          >
+          <i class="fa-solid fa-mountain fa-2x" style="color: white"></i>
           </button>
-        </div>
-        <div class="col-sm-12 col-mx-12 col-md-4">          
-          <button type="button" class="btn btn-info col-12 ">
-            <i class="fa-solid fa-route fa-2x" style="color:white"></i>
-         </button>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-            voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
-            unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
-            officiis asperiores obcaecati. Quae magnam corporis perspiciatis
-            repudiandae quas autem at id tenetur cupiditate, veniam laborum
-            totam maxime voluptatem, numquam atque aliquam iure eligendi quos
-            dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati officia
-            illo ea reiciendis quo deleniti debitis consequuntur placeat.
-            Aliquid velit et labore ipsa iusto debitis deserunt numquam illo
-            quibusdam, doloribus commodi fugit dolorem magnam sunt mollitia,
-            maiores esse. Labore vitae similique sunt ex commodi delectus nihil
-            unde nostrum facere aut sit ullam autem enim placeat non at
-            distinctio consectetur sed ab, tempore mollitia ipsa architecto
-            quaerat corporis! Quidem.
-          </p>
+
+          </div>
+          <div class="col-sm-12 col-mx-12 col-md-4">
+            <!--
+            <button type="button" class="btn btn-info col-12">
+              <i class="fa-solid fa-route fa-2x" style="color: white"></i>
+            </button>
+-->
+            <button
+            type="button"
+            class="btn btn-info col-12"
+            data-bs-toggle="popover"
+            title="Rutas"
+            data-bs-content="Encontrará las más diversas rutas, desde las fáciles hasta las exclusivas para expertos"
+          >
+          <i class="fa-solid fa-route fa-2x" style="color: white"></i>
+          </button>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+              voluptatum, nisi odio aperiam porro nam nobis, expedita asperiores
+              unde, exercitationem rerum mollitia cumque. Ab fugiat atque nisi
+              officiis asperiores obcaecati. Quae magnam corporis perspiciatis
+              repudiandae quas autem at id tenetur cupiditate, veniam laborum
+              totam maxime voluptatem, numquam atque aliquam iure eligendi quos
+              dolores magni ullam officiis modi! Fuga, ex autem! Obcaecati
+              officia illo ea reiciendis quo deleniti debitis consequuntur
+              placeat. Aliquid velit et labore ipsa iusto debitis deserunt
+              numquam illo quibusdam, doloribus commodi fugit dolorem magnam
+              sunt mollitia, maiores esse. Labore vitae similique sunt ex
+              commodi delectus nihil unde nostrum facere aut sit ullam autem
+              enim placeat non at distinctio consectetur sed ab, tempore
+              mollitia ipsa architecto quaerat corporis! Quidem.
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- FIN quienes somos-->
 
     <!-- Cards Destacados-->
-    <section class="container-fluid bg-dark" id="destacados">
-      <div class="row text-white ">
-        <div class="col-12">
-          <h3 class="text-center fw-bold mt-5 mb-5">DESTACADOS</h3>
+    <section id="destacados" class="container-fluid bg-dark" >
+      <div class="container-xl">
+        <div class="row text-white">
+          <div class="col-12">
+            <h3 class="text-center fw-bold mt-5 mb-5">DESTACADOS</h3>
+          </div>
         </div>
-      </div>
-      <div id="cardGroup" class="card-group">
-        <div class="row">
-          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
-            <div class="card px-1">
-              <img src="./assets/img/card1.jpg" class="card-img-top h-100" alt="..." />
-              <div class="card-body bg-info">
-                <p class="card-text mt-1 bg-info text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi quo temporibus minus maxime modi sunt, molestias,
-                  nam minima magni assumenda est ratione quam autem fugit, rem
-                  placeat ipsam non voluptate!
-                </p>
+        <div id="cardGroup" class="card-group">
+          <div class="row">
+            <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+              <div class="card px-1">
+                <img
+                  src="./assets/img/card1.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <p class="card-text mt-1 bg-info text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi quo temporibus minus maxime modi sunt, molestias,
+                    nam minima magni assumenda est ratione quam autem fugit, rem
+                    placeat ipsam non voluptate!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
-            <div class="card px-1">
-              <img src="./assets/img/card2.jpg" class="card-img-top h-100" alt="..." />
-              <div class="card-body bg-info">
-                <p class="card-text mt-1 bg-info text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi quo temporibus minus maxime modi sunt, molestias,
-                  nam minima magni assumenda est ratione quam autem fugit, rem
-                  placeat ipsam non voluptate!
-                </p>
+            <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+              <div class="card px-1">
+                <img
+                  src="./assets/img/card2.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <p class="card-text mt-1 bg-info text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi quo temporibus minus maxime modi sunt, molestias,
+                    nam minima magni assumenda est ratione quam autem fugit, rem
+                    placeat ipsam non voluptate!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
-            <div class="card px-1">
-              <img src="./assets/img/card3.jpg" class="card-img-top h-100" alt="..." />
-              <div class="card-body bg-info">
-                <p class="card-text mt-1 bg-info text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi quo temporibus minus maxime modi sunt, molestias,
-                  nam minima magni assumenda est ratione quam autem fugit, rem
-                  placeat ipsam non voluptate!
-                </p>
+            <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+              <div class="card px-1">
+                <img
+                  src="./assets/img/card3.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <p class="card-text mt-1 bg-info text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi quo temporibus minus maxime modi sunt, molestias,
+                    nam minima magni assumenda est ratione quam autem fugit, rem
+                    placeat ipsam non voluptate!
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
-            <div class="card px-1">
-              <img src="./assets/img/card4.jpg" class="card-img-top h-100" alt="..." />
-              <div class="card-body bg-info">
-                <p class="card-text mt-1 bg-info text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi quo temporibus minus maxime modi sunt, molestias,
-                  nam minima magni assumenda est ratione quam autem fugit, rem
-                  placeat ipsam non voluptate!
-                </p>
+            <div class="col-sm-12 col-mx-12 col-md-3 border-dark d-flex">
+              <div class="card px-1">
+                <img
+                  src="./assets/img/card4.jpg"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body bg-info">
+                  <p class="card-text mt-1 bg-info text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Excepturi quo temporibus minus maxime modi sunt, molestias,
+                    nam minima magni assumenda est ratione quam autem fugit, rem
+                    placeat ipsam non voluptate!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -252,74 +321,94 @@
     <!-- FIN Cards destacados-->
 
     <!-- Contacto -->
-    <section class="container-fluid bg-dark" id="contacto">
+    <section  id="contacto" class="container-fluid bg-dark">
+      <div class="container-xl">
+        <div class="row text-white">
+          <div class="col-12">
+            <h3 class="text-center fw-bold mt-5 mb-5">CONTACTO</h3>
+          </div>
+        </div>
+        <form>
+          <div class="form-group text-white mb-2">
 
-      <div class="row text-white ">
-        <div class="col-12 ">
-          <h3 class="text-center fw-bold mt-5 mb-5">CONTACTO</h3>
-        </div>
-      </div>
-      <form>
-        <div class="form-group text-white mb-2">
-          <label for="fNombre" class="mb-2">Nombre</label>
-          <input
-            type="text"
-            class="form-control"
-            id="fNombre"            
-          />
-        </div>
-        <div class="form-group text-white mb-2">
-          <label for="fAsunto" class="mb-2">Asunto</label>
-          <input
-            type="text"
-            class="form-control"
-            id="fAsunto"            
-          />
-        </div>
-        <div class="form-group text-white mb-2">
-          <label for="fMensaje" class="mb-2">Mensage</label>
-          <textarea
-            class="form-control"
+            <button
+            id="fNombre"
+            type="label"
+            class="btn btn-dark"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Debes ingresar tu nombre">
+            Nombre
+          </button>
+            <!-- <label for="fNombre" class="mb-2">Nombre</label> -->
+            <input type="text" class="form-control" id="fNombre" />
+          </div>
+          <div class="form-group text-white mb-2">
+            <button
+            id="fAsunto"
+            type="label"
+            class="btn btn-dark"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Indica sobre qué materia nos quieres contactar">
+            Asunto
+          </button>
+
+            <!-- <label for="fAsunto" class="mb-2">Asunto</label> -->
+            <input type="text" class="form-control" id="fAsunto" />
+          </div>
+          <div class="form-group text-white mb-2">
+            <button
             id="fMensaje"
-            rows="3"
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn-info mb-5">Enviar</button>
-      </form>
+            type="label"
+            class="btn btn-dark"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Escríbenos tu mensaje">
+            Mensaje
+          </button>
+
+
+<!--             <label for="fMensaje" class="mb-2">Mensaje</label> -->
+            <textarea class="form-control" id="fMensaje" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-info mb-5">Enviar</button>
+          
+        </form>
+      </div>
     </section>
     <!-- Fin Contacto -->
 
-<!-- footer -->
-<footer class="bg-info">
-  <div class="row abs-center p-4 ">
-    <div class="col-6 bg-info text-center ">
-      <p class="txtFooter">VIAJES CHILE</p>
-    </div>
-    <div class="col-6 bg-info text-center" >
-		<a href="https://github.com"  target="_blank"><i class="fab fa-github-square fa-2x  me-2" style="color:white;"></i></a>
-		<a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin fa-2x  me-2" style="color:white;"></i></a>
-		<a href="https://twitter.com"  target="_blank"><i class="fab fa-twitter-square fa-2x  me-2" style="color:white;"></i></a>
-		<a href="https://www.facebook.com"  target="_blank"> <i class="fa-brands fa-facebook-square fa-2x" style="color:white;"></i></a>
+    <!-- footer -->
+    <footer class="bg-info">
+      <div class="row abs-center">
+        <div class="col-6 bg-info text-center">
+          <p class="txtFooter">VIAJES CHILE</p>
+        </div>
+        <div class="col-6 bg-info text-center">
+          <a href="https://github.com" target="_blank"
+            ><i class="fab fa-github-square fa-2x me-2" style="color: white"></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fab fa-linkedin fa-2x me-2" style="color: white"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i
+              class="fab fa-twitter-square fa-2x me-2"
+              style="color: white"
+            ></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank">
+            <i
+              class="fa-brands fa-facebook-square fa-2x"
+              style="color: white"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
 
-    <!--
-      <a href="https://www.github.com" target="_blank">
-      <img class="imgFooter me-2" src="./assets/icon/github.png" alt="">
-      </a>
-      <a href="https://www.linkedin.com/" target="_blank">
-       <img class="imgFooter me-2" src="./assets/icon/linkedin_negativo.png" alt="">
-       </a>
-       <a href="https://twitter.com/" target="_blank">
-       <img class="imgFooter me-2" src="./assets/icon/twitter_negativo.png" alt="">
-       </a>
-       <a href="https://www.facebook.com/" target="_blank">
-        <img class="imgFooter" src="./assets/icon/facebook_negativo.png" alt="">
-        </a>
-      -->
-    </div>
-  </div>
-</footer>
-
-<!-- Fin footer  -->
+    <!-- Fin footer  -->
 
 
     <!-- jquery cdn-->
